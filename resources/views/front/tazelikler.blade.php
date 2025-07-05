@@ -11,12 +11,12 @@
 
     <section class="mt-5">
 
-        <div class="navbar-container">
+        <div class="navbar-container mx-auto space-x-2 justify-center" style="width: 90%">
             <div class="navbar" style="background-color: #fff;">
-                <a href="#">Sonkylar</a>
-                <a href="#" class="active">Bilim</a>
-                <a href="#">Sport</a>
-                <a href="#">Daşary ýurt</a>
+                <a href="#" style="text-decoration: none" class="btn btn-primary">Sonkylar</a>
+                <a href="#" style="text-decoration: none" class="active">Bilim</a>
+                <a href="#" style="text-decoration: none" class="btn btn-primary">Sport</a>
+                <a href="#" style="text-decoration: none" class="btn btn-primary">Daşary ýurt</a>
             </div>
             <div class="underline"></div>
         </div>
@@ -27,33 +27,33 @@
             <div class="container flex-container">
                 <img src="./images/tazelik.jpeg" alt="" class="img-fluid">
                 <div class="text-button">
-                    <label class="text">Yaksygedi Kakayew adyndaky halkara nebit we gaz uniwersiteti <br> <span
+                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yaksygedi Kakayew adyndaky halkara nebit we gaz uniwersiteti <br> <span
                             style="font-size: 15px;">151 <i class="bi bi-eye-fill"></i></span></label>
-                    <a href="" class="btn btn-primary">Ginisleyin</a>
+                    <a href="" class="btn btn-primary">Giňişleýin</a>
                 </div>
             </div>
             <div class="container flex-container">
                 <img src="./images/tazelik2.jpeg" alt="" class="img-fluid">
                 <div class="text-button">
-                    <label class="text">Yaksygedi Kakayew adyndaky halkara nebit we gaz uniwersiteti <br> <span
+                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yaksygedi Kakayew adyndaky halkara nebit we gaz uniwersiteti <br> <span
                             style="font-size: 15px;">151 <i class="bi bi-eye-fill"></i></span></label>
-                    <a href="" class="btn btn-primary">Ginisleyin</a>
+                    <a href="" class="btn btn-primary">Giňişleýin</a>
                 </div>
             </div>
             <div class="container flex-container">
                 <img src="./images/tazelik.jpeg" alt="" class="img-fluid">
                 <div class="text-button">
-                    <label class="text">Yaksygedi Kakayew adyndaky halkara nebit we gaz uniwersiteti <br> <span
+                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yaksygedi Kakayew adyndaky halkara nebit we gaz uniwersiteti <br> <span
                             style="font-size: 15px;">151 <i class="bi bi-eye-fill"></i></span></label>
-                    <a href="" class="btn btn-primary">Ginisleyin</a>
+                    <a href="" class="btn btn-primary">Giňişleýin</a>
                 </div>
             </div>
             <div class="container flex-container">
                 <img src="./images/tazelik2.jpeg" alt="" class="img-fluid">
                 <div class="text-button">
-                    <label class="text">Yaksygedi Kakayew adyndaky halkara nebit we gaz uniwersiteti <br> <span
+                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yaksygedi Kakayew adyndaky halkara nebit we gaz uniwersiteti <br> <span
                             style="font-size: 15px;">151 <i class="bi bi-eye-fill"></i></span></label>
-                    <a href="" class="btn btn-primary">Ginisleyin</a>
+                    <a href="" class="btn btn-primary">Giňişleýin</a>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
 
         <!-- Filter Buttons -->
         <div class="filter-buttons">
-            <button class="btn btn-outline-success me-2">Ählisi</button>
+               
             <button class="btn btn-outline-success">Ählisi</button>
         </div>
 

@@ -32,7 +32,7 @@
 
         <!-- Controls -->
         <!-- Previous Button -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        {{-- <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon d-flex justify-content-center align-items-center" aria-hidden="true"
                 style="
                 background: white;
@@ -43,10 +43,10 @@
             ">
                 <i class="bi bi-arrow-left" style="color: black; font-size: 24px"></i>
             </span>
-        </button>
+        </button> --}}
 
         <!-- Next Button -->
-        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        {{-- <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
             <span class="carousel-control-next-icon d-flex justify-content-center align-items-center" aria-hidden="true"
                 style="
                 background: white;
@@ -57,7 +57,7 @@
             ">
                 <i class="bi bi-arrow-right" style="color: black; font-size: 24px"></i>
             </span>
-        </button>
+        </button> --}}
     </div>
 
     <section id="section-icons mx-auto" style="position: relative; top: -20vh; height: 20vh">
