@@ -1,0 +1,23 @@
+@extends('components.admin_layout')
+
+@section('content')
+<div class="container-xxl flex-grow-1 container-p-y">
+    <h3>{{ __('messages.edit_announcement') }}</h3>
+    <form action="{{ route('announcement.update', $item->id) }}" method="POST">
+        @csrf
+        @method('PATCH')
+        <div class="mb-3">
+            <label for="title" class="form-label">{{ __('messages.title') }}</label>
+            <input type="text" class="form-control" id="title" name="title" value="{{ $item->title }}" required>
+            <x-input-error for="title" />
+        </div>
+        <div class="mb-3">
+            <label for="content" class="form-label">{{ __('messages.content') }}</label>
+            <textarea class="form-control" id="content" name="content" rows="5">{{ $item->content }}</textarea>
+            <x-input-error for="content" />
+        </div>
+        <button type="submit" class="btn btn-primary">{{ __('messages.save') }}</button>
+        <a href="{{ route('announcement.index') }}" class="btn btn-secondary">{{ __('messages.cancel') }}</a>
+    </form>
+</div>
+@endsection

@@ -1,0 +1,62 @@
+/* styles.css */
+/* body {
+  background-color: #121212;
+  color: #fff;
+} */
+
+.table-dark th,
+.table-dark td {
+  vertical-align: middle;
+}
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.status-professional {
+  background-color: #00c853;
+}
+
+.status-resigned {
+  background-color: #ff5252;
+}
+
+.status-current {
+  background-color: #448aff;
+}
+
+.actions-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.actions-menu ul {
+  display: none;
+  position: absolute;
+  background-color: #2a2a2a;
+  border-radius: 5px;
+  padding: 10px 0;
+  min-width: 150px;
+  list-style: none;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.actions-menu:hover ul {
+  display: block;
+}
+
+.actions-menu ul li {
+  padding: 5px 15px;
+}
+
+.actions-menu ul li:hover {
+  background-color: #444;
+}
+
+.actions-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
