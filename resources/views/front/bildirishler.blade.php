@@ -20,7 +20,7 @@
                     <label class="text">Yaksygedi Kakayew adyndaky halkara nebit we gaz
                         uniwersiteti <br />
                         <span style="font-size: 15px">151 <i class="bi bi-eye-fill"></i></span></label>
-                    <a href="" class="btn btn-primary">Ginisleyin</a>
+                    <a href="" class="btn btn-primary">Giňişleýin</a>
                 </div>
             </div>
             <div class="col">
@@ -29,7 +29,7 @@
                     <label class="text">Yaksygedi Kakayew adyndaky halkara nebit we gaz
                         uniwersiteti <br />
                         <span style="font-size: 15px">151 <i class="bi bi-eye-fill"></i></span></label>
-                    <a href="" class="btn btn-primary">Ginisleyin</a>
+                    <a href="" class="btn btn-primary">Giňişleýin</a>
                 </div>
             </div>
             <div class="col">
@@ -38,7 +38,7 @@
                     <label class="text">Yaksygedi Kakayew adyndaky halkara nebit we gaz
                         uniwersiteti <br />
                         <span style="font-size: 15px">151 <i class="bi bi-eye-fill"></i></span></label>
-                    <a href="" class="btn btn-primary">Ginisleyin</a>
+                    <a href="" class="btn btn-primary">Giňişleýin</a>
                 </div>
             </div>
             <div class="col">
@@ -47,7 +47,7 @@
                     <label class="text">Yaksygedi Kakayew adyndaky halkara nebit we gaz
                         uniwersiteti <br />
                         <span style="font-size: 15px">151 <i class="bi bi-eye-fill"></i></span></label>
-                    <a href="" class="btn btn-primary">Ginisleyin</a>
+                    <a href="" class="btn btn-primary">Giňişleýin</a>
                 </div>
             </div>
         </div>
