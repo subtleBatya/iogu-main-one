@@ -10,14 +10,14 @@
 
     <section class="mt-5 contianer">
         <center>
-            <h1>Bildirisler</h1>
+            <h1>Bildirişler</h1>
         </center>
         <div class="row d-flex justify-content-center align-items-center w-100 row-cols-2 p-5"
             style="flex-direction: row; flex-wrap: wrap">
             <div class="col">
                 <img src="./images/tazelik.jpeg" alt="" class="img-fluid" />
                 <div class="text-button">
-                    <label class="text">Yaksygedi Kakayew adyndaky halkara nebit we gaz
+                    <label class="text">Yagşygeldi Kakaýew adyndaky halkara nebit we gaz
                         uniwersiteti <br />
                         <span style="font-size: 15px">151 <i class="bi bi-eye-fill"></i></span></label>
                     <a href="" class="btn btn-primary">Giňişleýin</a>
@@ -26,7 +26,7 @@
             <div class="col">
                 <img src="./images/tazelik2.jpeg" alt="" class="img-fluid" />
                 <div class="text-button">
-                    <label class="text">Yaksygedi Kakayew adyndaky halkara nebit we gaz
+                    <label class="text">Yagşygeldi Kakaýew adyndaky halkara nebit we gaz
                         uniwersiteti <br />
                         <span style="font-size: 15px">151 <i class="bi bi-eye-fill"></i></span></label>
                     <a href="" class="btn btn-primary">Giňişleýin</a>
@@ -35,7 +35,7 @@
             <div class="col">
                 <img src="./images/tazelik.jpeg" alt="" class="img-fluid" />
                 <div class="text-button">
-                    <label class="text">Yaksygedi Kakayew adyndaky halkara nebit we gaz
+                    <label class="text">Yagşygeldi Kakaýew adyndaky halkara nebit we gaz
                         uniwersiteti <br />
                         <span style="font-size: 15px">151 <i class="bi bi-eye-fill"></i></span></label>
                     <a href="" class="btn btn-primary">Giňişleýin</a>
@@ -44,7 +44,7 @@
             <div class="col">
                 <img src="./images/tazelik2.jpeg" alt="" class="img-fluid" />
                 <div class="text-button">
-                    <label class="text">Yaksygedi Kakayew adyndaky halkara nebit we gaz
+                    <label class="text">Yagşygeldi Kakaýew adyndaky halkara nebit we gaz
                         uniwersiteti <br />
                         <span style="font-size: 15px">151 <i class="bi bi-eye-fill"></i></span></label>
                     <a href="" class="btn btn-primary">Giňişleýin</a>

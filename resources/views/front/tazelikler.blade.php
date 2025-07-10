@@ -13,21 +13,21 @@
 
         <div class="navbar-container mx-auto space-x-2 justify-center" style="width: 90%">
             <div class="navbar" style="background-color: #fff;">
-                <a href="#" style="text-decoration: none" class="btn btn-primary">Sonkylar</a>
-                <a href="#" style="text-decoration: none" class="active">Bilim</a>
+                <a href="#" style="text-decoration: none" class="btn btn-primary">Soňkylar</a>
+                <a href="#" style="text-decoration: none" class="btn btn-primary active">Bilim</a>
                 <a href="#" style="text-decoration: none" class="btn btn-primary">Sport</a>
                 <a href="#" style="text-decoration: none" class="btn btn-primary">Daşary ýurt</a>
             </div>
             <div class="underline"></div>
         </div>
         <center>
-            <h1>Bildirisler</h1>
+            <h1>Täzelikler</h1>
         </center>
         <div class="d-flex justify-content-center align-items-center w-100" style="flex-direction: row; flex-wrap: wrap;;">
             <div class="container flex-container">
                 <img src="./images/tazelik.jpeg" alt="" class="img-fluid">
                 <div class="text-button">
-                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yaksygedi Kakayew adyndaky halkara nebit we gaz uniwersiteti <br> <span
+                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti <br> <span
                             style="font-size: 15px;">151 <i class="bi bi-eye-fill"></i></span></label>
                     <a href="" class="btn btn-primary">Giňişleýin</a>
                 </div>
@@ -35,7 +35,7 @@
             <div class="container flex-container">
                 <img src="./images/tazelik2.jpeg" alt="" class="img-fluid">
                 <div class="text-button">
-                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yaksygedi Kakayew adyndaky halkara nebit we gaz uniwersiteti <br> <span
+                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti <br> <span
                             style="font-size: 15px;">151 <i class="bi bi-eye-fill"></i></span></label>
                     <a href="" class="btn btn-primary">Giňişleýin</a>
                 </div>
@@ -43,7 +43,7 @@
             <div class="container flex-container">
                 <img src="./images/tazelik.jpeg" alt="" class="img-fluid">
                 <div class="text-button">
-                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yaksygedi Kakayew adyndaky halkara nebit we gaz uniwersiteti <br> <span
+                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti <br> <span
                             style="font-size: 15px;">151 <i class="bi bi-eye-fill"></i></span></label>
                     <a href="" class="btn btn-primary">Giňişleýin</a>
                 </div>
@@ -51,7 +51,7 @@
             <div class="container flex-container">
                 <img src="./images/tazelik2.jpeg" alt="" class="img-fluid">
                 <div class="text-button">
-                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yaksygedi Kakayew adyndaky halkara nebit we gaz uniwersiteti <br> <span
+                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti <br> <span
                             style="font-size: 15px;">151 <i class="bi bi-eye-fill"></i></span></label>
                     <a href="" class="btn btn-primary">Giňişleýin</a>
                 </div>
