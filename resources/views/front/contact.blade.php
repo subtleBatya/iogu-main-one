@@ -9,7 +9,42 @@
 <section class="mt-5">
     <div style="color: #3f4e70" class="m-5">
         <h2 class="m-2 fw-bold">Habarlasmak ucin</h2>
-        <textarea id="tm-editor" class="text-editor"></textarea>
+        
+        <div class="w-75">
+            <form action="#" method="POST">
+                <!-- Name Field -->
+                <div class="mb-3">
+                    <label for="name" class="form-label fw-medium">Doly ady</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Aman amanow">
+                </div>
+            
+                <!-- Email Field -->
+                <div class="mb-3">
+                    <label for="email" class="form-label fw-medium">Pocta</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="sen@example.com">
+                </div>
+            
+                <!-- Subject Field -->
+                <div class="mb-3">
+                    <label for="subject" class="form-label fw-medium">Yuzlenme</label>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Sowal">
+                </div>
+            
+                <!-- Message Field -->
+                <div class="mb-3">
+                    <label for="message" class="form-label fw-medium">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your message here..."></textarea>
+                </div>
+            
+                <!-- Submit Button -->
+                <div class="text-end">
+                    <button type="submit" class="btn btn-primary btn-lg fw-semibold">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+        
     </div>
 </section>
 
@@ -38,14 +73,8 @@
     </div>
 
     <div class="map">
-        <!-- Example map embed (Google Maps iframe) -->
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.7689341589734!2d58.3872188!3d37.9405418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414fdf3d4baee7d7%3A0x22871b5981d77507!2sInternational%20Oil%20and%20Gas%20University!5e0!3m2!1sen!2s!4v1713350000000"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-        >
-        </iframe>
+        <!-- Example map embed (Google Maps iframe) -->   
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.265373292227!2d58.38615457535503!3d37.87747620623808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f6ffd4640043691%3A0x522b65994863214c!2z0KPQvdC40LLQtdGA0YHQuNGC0LXRgiDQvdC10YTRgtC4INC4INCz0LDQt9Cw!5e0!3m2!1sru!2sus!4v1754821382418!5m2!1sru!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
 @endsection

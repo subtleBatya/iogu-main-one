@@ -23,43 +23,67 @@
         <center>
             <h1>Täzelikler</h1>
         </center>
-        <div class="d-flex justify-content-center align-items-center w-100" style="flex-direction: row; flex-wrap: wrap;;">
+        <div class="d-flex justify-content-center align-items-center w-100" style="flex-direction: row; flex-wrap: wrap;">
             <div class="container flex-container">
-                <img src="./images/tazelik.jpeg" alt="" class="img-fluid">
-                <div class="text-button">
-                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti <br> <span
-                            style="font-size: 15px;">151 <i class="bi bi-eye-fill"></i></span></label>
-                    <a href="" class="btn btn-primary">Giňişleýin</a>
+                <div class="col-lg-5 col-md-6">
+                    <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                        <img src="./images/news2.jpg" class="card-img-top" alt="News Image 1">
+                        <div class="card-body">
+                            <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis mb-2">Sport</span>
+                            <h5 class="card-title fw-bold">Foans</h5>
+                            <p class="card-text text-muted">
+                                Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
+                            <small class="text-muted">151 <i class="bi bi-eye-fill"></i></small>
+                            <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="container flex-container">
-                <img src="./images/tazelik2.jpeg" alt="" class="img-fluid">
-                <div class="text-button">
-                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti <br> <span
-                            style="font-size: 15px;">151 <i class="bi bi-eye-fill"></i></span></label>
-                    <a href="" class="btn btn-primary">Giňişleýin</a>
+                <div class="col-lg-5 col-md-6">
+                    <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                        <img src="./images/news1.png" class="card-img-top" alt="News Image 1">
+                        <div class="card-body">
+                            <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis mb-2">Sport</span>
+                            <h5 class="card-title fw-bold">Foans</h5>
+                            <p class="card-text text-muted">
+                                Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
+                            <small class="text-muted">151 <i class="bi bi-eye-fill"></i></small>
+                            <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="container flex-container">
-                <img src="./images/tazelik.jpeg" alt="" class="img-fluid">
-                <div class="text-button">
-                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti <br> <span
-                            style="font-size: 15px;">151 <i class="bi bi-eye-fill"></i></span></label>
-                    <a href="" class="btn btn-primary">Giňişleýin</a>
+                <div class="col-lg-5 col-md-6">
+                    <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                        <img src="./images/kitapgana.jpeg" class="card-img-top" alt="News Image 1">
+                        <div class="card-body">
+                            <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis mb-2">Sport</span>
+                            <h5 class="card-title fw-bold">Foans</h5>
+                            <p class="card-text text-muted">
+                                Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
+                            <small class="text-muted">151 <i class="bi bi-eye-fill"></i></small>
+                            <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="container flex-container">
-                <img src="./images/tazelik2.jpeg" alt="" class="img-fluid">
-                <div class="text-button">
-                    <label class="text" style=" overflow-wrap:break-word; white-space: normal; width: 30vw">Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti <br> <span
-                            style="font-size: 15px;">151 <i class="bi bi-eye-fill"></i></span></label>
-                    <a href="" class="btn btn-primary">Giňişleýin</a>
-                </div>
-            </div>
+            
+            
         </div>
 
 
-        <div class="paginator">
+        {{-- <div class="paginator">
             <div class="progress-bar"></div>
             <div class="page-number active" data-index="1">1</div>
             <div class="page-number" data-index="2">2</div>
@@ -71,7 +95,35 @@
             <div class="page-number" data-index="8">8</div>
             <div class="page-number" data-index="9">9</div>
             <div class="page-number" data-index="10">10</div>
-        </div>
+        </div> --}}
+
+        <section class="d-flex justify-content-center mt-5">
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+        
+                    <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+        
+                    <li class="page-item disabled">
+                        <span class="page-link">...</span>
+                    </li>
+                    
+                    <li class="page-item"><a class="page-link" href="#">10</a></li>
+        
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
 
     </section>
 
@@ -127,4 +179,112 @@
             </div>
         </div>
     </div>
+
+
+    <div class="row g-3">
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                <img src="./images/news2.jpg" class="card-img-top" alt="News Image 1">
+                <div class="card-body">
+                    <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis mb-2">Sport</span>
+                    <h5 class="card-title fw-bold">Foans</h5>
+                    <p class="card-text text-muted">
+                        Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti.
+                    </p>
+                </div>
+                <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
+                    <small class="text-muted">151 <i class="bi bi-eye-fill"></i></small>
+                    <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                <img src="./images/kitapgana.jpeg" class="card-img-top" alt="News Image 2">
+                <div class="card-body">
+                    <span class="badge rounded-pill bg-secondary-subtle text-secondary-emphasis mb-2">Bilim</span>
+                    <h5 class="card-title fw-bold">Dilim Saciz</h5>
+                    <p class="card-text text-muted">
+                        Teningeglemete nsyfirmi decr dudsiur. A new era of learning.
+                    </p>
+                </div>
+                <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
+                    <small class="text-muted">204 <i class="bi bi-eye-fill"></i></small>
+                    <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                <img src="./images/news1.png" class="card-img-top" alt="News Image 3">
+                <div class="card-body">
+                    <span class="badge rounded-pill bg-success-subtle text-success-emphasis mb-2">Bilim</span>
+                    <h5 class="card-title fw-bold">Çiçkom Ar ğn</h5>
+                    <p class="card-text text-muted">
+                        Tenuňge nlr ortsimathum dusla siğu. Exploring new frontiers.
+                    </p>
+                </div>
+                <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
+                    <small class="text-muted">98 <i class="bi bi-eye-fill"></i></small>
+                    <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                <img src="./images/news1.png" class="card-img-top" alt="News Image 3">
+                <div class="card-body">
+                    <span class="badge rounded-pill bg-success-subtle text-success-emphasis mb-2">Bilim</span>
+                    <h5 class="card-title fw-bold">Çiçkom Ar ğn</h5>
+                    <p class="card-text text-muted">
+                        Tenuňge nlr ortsimathum dusla siğu. Exploring new frontiers.
+                    </p>
+                </div>
+                <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
+                    <small class="text-muted">98 <i class="bi bi-eye-fill"></i></small>
+                    <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                <img src="./images/news1.png" class="card-img-top" alt="News Image 3">
+                <div class="card-body">
+                    <span class="badge rounded-pill bg-success-subtle text-success-emphasis mb-2">Bilim</span>
+                    <h5 class="card-title fw-bold">Çiçkom Ar ğn</h5>
+                    <p class="card-text text-muted">
+                        Tenuňge nlr ortsimathum dusla siğu. Exploring new frontiers.
+                    </p>
+                </div>
+                <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
+                    <small class="text-muted">98 <i class="bi bi-eye-fill"></i></small>
+                    <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                <img src="./images/news1.png" class="card-img-top" alt="News Image 3">
+                <div class="card-body">
+                    <span class="badge rounded-pill bg-success-subtle text-success-emphasis mb-2">Bilim</span>
+                    <h5 class="card-title fw-bold">Çiçkom Ar ğn</h5>
+                    <p class="card-text text-muted">
+                        Tenuňge nlr ortsimathum dusla siğu. Exploring new frontiers.
+                    </p>
+                </div>
+                <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
+                    <small class="text-muted">98 <i class="bi bi-eye-fill"></i></small>
+                    <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    
 @endsection
