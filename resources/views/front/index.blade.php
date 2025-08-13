@@ -298,7 +298,7 @@
         </style>
 
         <div class="container my-5">
-            <h1 class="text-center display-4 fw-bold text-dark mb-5">Featured Content</h1>
+            {{-- <h1 class="text-center display-4 fw-bold text-dark mb-5">Featured Content</h1> --}}
             
             <div id="featuredContentCarousel" class="carousel slide shadow-lg rounded-4 overflow-hidden" data-bs-ride="carousel">
                 
@@ -409,9 +409,9 @@
     </section>
 
     <section id="tazelikler">
-        <div class="carousel-slide1">
-            <h1 class="carousel-title1">{{ __('messages.sport_news') }}</h1>
-            <div class="carousel-container1">
+        {{-- <div class="carousel-slide1"> --}}
+            
+            {{-- <div class="carousel-container1">
                 <button class="nav-btn1 prev-btn1">&#10094;</button>
                 <div class="carousel-image-wrapper1">
                     <img src="./images/tazelikler.png" alt="Celebration" class="carousel-image1" />
@@ -423,12 +423,71 @@
                     </div>
                 </div>
                 <button class="nav-btn1 next-btn1">&#10095;</button>
-            </div>
-            <div class="paginator1">
+            </div> --}}
+            {{-- <div class="paginator1">
                 <span class="dot1 active1"></span>
                 <span class="dot1"></span>
                 <span class="dot1"></span>
-            </div>
-        </div>
+            </div> --}}
+
+
+        {{-- </div> --}}
+
+        <style>
+            .carousel-item {
+            height: 550px; /* Or any height you want */
+            /* background-color: #777; A fallback color */
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+            .carousel-item::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 50%;
+            background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+        }
+        .carousel-caption {
+            z-index: 10; /* Ensure caption is on top of the gradient */
+        }
+        </style>
+
+        <div class="container my-5">
+            {{-- <h1 class="text-center display-4 fw-bold text-dark mb-5">Featured Content</h1> --}}
+            <h1 class="carousel-title1 text-center">{{ __('messages.sport_news') }}</h1>
+            <div id="featuredContentCarousel" class="carousel slide shadow-lg rounded-4 overflow-hidden" data-bs-ride="carousel">
+                
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#featuredContentCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#featuredContentCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#featuredContentCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+    
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-image: url(https://placehold.co/1200x600/334155/ffffff?text=Slide+1); height: 450px;">
+                        {{-- <img src="" class="d-block w-100" alt="Slide 1"> --}}
+                        <div class="carousel-caption d-none d-md-block text-start">
+                            <h2 class="display-6 fw-bold">Modern Architecture</h2>
+                            <p class="lead">Exploring the future of building design.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url(https://placehold.co/1200x600/166534/ffffff?text=Slide+2); height: 450px;">
+                        {{-- <img src="" class="d-block w-100" alt="Slide 2"> --}}
+                        <div class="carousel-caption d-none d-md-block text-start">
+                            <h2 class="display-6 fw-bold">Nature & Serenity</h2>
+                            <p class="lead">Discover breathtaking landscapes around the world.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url(https://placehold.co/1200x600/BE123C/ffffff?text=Slide+3); height: 450px;">
+                        {{-- <img src="" class="d-block w-100" alt="Slide 3"> --}}
+                        <div class="carousel-caption d-none d-md-block text-start">
+                            <h2 class="display-6 fw-bold">Urban Exploration</h2>
+                            <p class="lead">The vibrant life of city streets at night.</p>
+                        </div>
+                    </div>
+                </div>
     </section>
 @endsection
