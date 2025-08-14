@@ -8,7 +8,7 @@
         </div>
     </header>
 
-    <section class="mt-5 contianer">
+    <section class="mt-5 container">
         <center>
             <h1>Bildirişler</h1>
         </center>
@@ -52,7 +52,62 @@
             </div>
         </div> --}}
 
-        <div class="d-flex justify-content-center align-items-center w-100" style="flex-direction: row; flex-wrap: wrap;">
+
+
+        <div class="row g-4 mx-auto">
+            <div class="col-lg-6 col-md-6">
+                <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                    <img src="./images/news2.jpg" class="card-img-top" alt="News Image 1">
+                    <div class="card-body">
+                        <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis mb-2">Sport</span>
+                        <h5 class="card-title fw-bold">Foans</h5>
+                        <p class="card-text text-muted">
+                            Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
+                        <small class="text-muted">151 <i class="bi bi-eye-fill"></i></small>
+                        <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                    <img src="./images/news2.jpg" class="card-img-top" alt="News Image 1">
+                    <div class="card-body">
+                        <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis mb-2">Sport</span>
+                        <h5 class="card-title fw-bold">Foans</h5>
+                        <p class="card-text text-muted">
+                            Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
+                        <small class="text-muted">151 <i class="bi bi-eye-fill"></i></small>
+                        <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                    <img src="./images/news2.jpg" class="card-img-top" alt="News Image 1">
+                    <div class="card-body">
+                        <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis mb-2">Sport</span>
+                        <h5 class="card-title fw-bold">Foans</h5>
+                        <p class="card-text text-muted">
+                            Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
+                        <small class="text-muted">151 <i class="bi bi-eye-fill"></i></small>
+                        <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        {{-- <div class="d-flex justify-content-center align-items-center w-100" style="flex-direction: row; flex-wrap: wrap;">
             <div class="container flex-container">
                 <div class="col-lg-5 col-md-6">
                     <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
@@ -109,7 +164,7 @@
             </div>
             
             
-        </div>
+        </div> --}}
 
         {{-- <div class="paginator">
             <div class="progress-bar"></div>

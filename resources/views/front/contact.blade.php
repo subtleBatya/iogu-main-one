@@ -17,30 +17,30 @@
                 <!-- Name Field -->
                 <div class="mb-3">
                     <label for="name" class="form-label fw-medium">Doly ady</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Aman amanow">
+                    <input style="outline: 1px solid lightblue" type="text" class="form-control" id="name" name="name" placeholder="Aman amanow">
                 </div>
             
                 <!-- Email Field -->
                 <div class="mb-3">
                     <label for="email" class="form-label fw-medium">Pocta</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="sen@example.com">
+                    <input style="outline: 1px solid lightblue" type="email" class="form-control" id="email" name="email" placeholder="sen@example.com">
                 </div>
             
                 <!-- Subject Field -->
                 <div class="mb-3">
                     <label for="subject" class="form-label fw-medium">Yuzlenme</label>
-                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Sowal">
+                    <input style="outline: 1px solid lightblue" type="text" class="form-control" id="subject" name="subject" placeholder="Sowal">
                 </div>
             
                 <!-- Message Field -->
                 <div class="mb-3">
                     <label for="message" class="form-label fw-medium">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="..."></textarea>
+                    <textarea style="outline: 1px solid lightblue" class="form-control" id="message" name="message" rows="5" placeholder="..."></textarea>
                 </div>
             
                 <!-- Submit Button -->
                 <div class="text-end">
-                    <button type="submit" class="btn btn-primary btn-lg fw-semibold">
+                    <button type="submit" style="background-color: lightblue; color: white" class="btn btn-lg fw-semibold">
                         Ugratmak
                     </button>
                 </div>
