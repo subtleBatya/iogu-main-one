@@ -60,7 +60,7 @@
         </button> --}}
     </div>
 
-    <section id="section-icons mx-auto" style="position: relative; top: -20vh; height: 20vh">
+    <section id="section-icons mx-auto" style="position: relative; top: -15vh; height: 20vh">
         <div class="d-flex justify-content-between align-items-center p-5" style="flex-wrap: wrap">
             <a href="" style="text-decoration: none; color: black">
                 <div class="icons d-flex justify-content-center align-items-center bg-white">
