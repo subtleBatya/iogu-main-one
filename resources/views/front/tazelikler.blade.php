@@ -136,7 +136,7 @@
         <!-- Filter Buttons -->
         <div class="filter-buttons">
                
-            <button class="btn btn-outline-success">Ählisi</button>
+            <button class="btn btn-outline-primary">Ählisi</button>
         </div>
 
         <!-- Cards -->
@@ -179,112 +179,6 @@
             </div>
         </div>
     </div>
-
-
-    <div class="row g-3">
-
-        <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                <img src="./images/news2.jpg" class="card-img-top" alt="News Image 1">
-                <div class="card-body">
-                    <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis mb-2">Sport</span>
-                    <h5 class="card-title fw-bold">Foans</h5>
-                    <p class="card-text text-muted">
-                        Yagşygeldi Kakaýew adyndaky halkara nebit we gaz uniwersiteti.
-                    </p>
-                </div>
-                <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
-                    <small class="text-muted">151 <i class="bi bi-eye-fill"></i></small>
-                    <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
-                </div>
-            </div>
-        </div>
-    
-        <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                <img src="./images/kitapgana.jpeg" class="card-img-top" alt="News Image 2">
-                <div class="card-body">
-                    <span class="badge rounded-pill bg-secondary-subtle text-secondary-emphasis mb-2">Bilim</span>
-                    <h5 class="card-title fw-bold">Dilim Saciz</h5>
-                    <p class="card-text text-muted">
-                        Teningeglemete nsyfirmi decr dudsiur. A new era of learning.
-                    </p>
-                </div>
-                <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
-                    <small class="text-muted">204 <i class="bi bi-eye-fill"></i></small>
-                    <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
-                </div>
-            </div>
-        </div>
-    
-        <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                <img src="./images/news1.png" class="card-img-top" alt="News Image 3">
-                <div class="card-body">
-                    <span class="badge rounded-pill bg-success-subtle text-success-emphasis mb-2">Bilim</span>
-                    <h5 class="card-title fw-bold">Çiçkom Ar ğn</h5>
-                    <p class="card-text text-muted">
-                        Tenuňge nlr ortsimathum dusla siğu. Exploring new frontiers.
-                    </p>
-                </div>
-                <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
-                    <small class="text-muted">98 <i class="bi bi-eye-fill"></i></small>
-                    <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                <img src="./images/news1.png" class="card-img-top" alt="News Image 3">
-                <div class="card-body">
-                    <span class="badge rounded-pill bg-success-subtle text-success-emphasis mb-2">Bilim</span>
-                    <h5 class="card-title fw-bold">Çiçkom Ar ğn</h5>
-                    <p class="card-text text-muted">
-                        Tenuňge nlr ortsimathum dusla siğu. Exploring new frontiers.
-                    </p>
-                </div>
-                <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
-                    <small class="text-muted">98 <i class="bi bi-eye-fill"></i></small>
-                    <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                <img src="./images/news1.png" class="card-img-top" alt="News Image 3">
-                <div class="card-body">
-                    <span class="badge rounded-pill bg-success-subtle text-success-emphasis mb-2">Bilim</span>
-                    <h5 class="card-title fw-bold">Çiçkom Ar ğn</h5>
-                    <p class="card-text text-muted">
-                        Tenuňge nlr ortsimathum dusla siğu. Exploring new frontiers.
-                    </p>
-                </div>
-                <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
-                    <small class="text-muted">98 <i class="bi bi-eye-fill"></i></small>
-                    <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                <img src="./images/news1.png" class="card-img-top" alt="News Image 3">
-                <div class="card-body">
-                    <span class="badge rounded-pill bg-success-subtle text-success-emphasis mb-2">Bilim</span>
-                    <h5 class="card-title fw-bold">Çiçkom Ar ğn</h5>
-                    <p class="card-text text-muted">
-                        Tenuňge nlr ortsimathum dusla siğu. Exploring new frontiers.
-                    </p>
-                </div>
-                <div class="card-footer bg-white border-0 pt-0 d-flex justify-content-between align-items-center">
-                    <small class="text-muted">98 <i class="bi bi-eye-fill"></i></small>
-                    <a href="#" class="fw-semibold text-primary text-decoration-none">Giňişleýin →</a>
-                </div>
-            </div>
-        </div>
-        
-        </div>
+   
     
 @endsection
