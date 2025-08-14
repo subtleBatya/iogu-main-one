@@ -35,13 +35,13 @@
                 <!-- Message Field -->
                 <div class="mb-3">
                     <label for="message" class="form-label fw-medium">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your message here..."></textarea>
+                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="..."></textarea>
                 </div>
             
                 <!-- Submit Button -->
                 <div class="text-end">
                     <button type="submit" class="btn btn-primary btn-lg fw-semibold">
-                        Send Message
+                        Ugratmak
                     </button>
                 </div>
             </form>
